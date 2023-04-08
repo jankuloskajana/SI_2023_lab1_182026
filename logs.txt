@@ -1,0 +1,90 @@
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug1)
+$ git log
+commit e5c79a078aba513bd4998f7031e7a687f841b377 (HEAD -> bug1, origin/master, master, bug3, bug2)
+Author: Јана Јанкулоска <101889143+jankuloskajana@users.noreply.github.com>
+Date:   Sat Apr 8 14:50:26 2023 +0200
+
+    Add java class
+
+commit 1be0c784ec63a8cfb1951d2df7fe8089aaa63be6
+Author: Јана Јанкулоска <101889143+jankuloskajana@users.noreply.github.com>
+Date:   Sat Apr 8 14:48:22 2023 +0200
+
+    Update README.md
+
+commit 76899122b7a69f5da4a395eac556eb8192ec1a8c
+Author: Јана Јанкулоска <101889143+jankuloskajana@users.noreply.github.com>
+Date:   Sat Apr 8 14:46:58 2023 +0200
+
+    Initial commit
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug1)
+$ git log
+commit 30366effd3c74e2770c88d5f0117768d533590b4 (HEAD -> bug1)
+Author: Jana Jankuloska <j.jankuloska13@gmail.com>
+Date:   Sat Apr 8 15:12:51 2023 +0200
+
+    Fix wrong loop for reading
+
+commit e5c79a078aba513bd4998f7031e7a687f841b377 (origin/master, master, bug3, bug2)
+Author: Јана Јанкулоска <101889143+jankuloskajana@users.noreply.github.com>
+Date:   Sat Apr 8 14:50:26 2023 +0200
+
+    Add java class
+
+commit 1be0c784ec63a8cfb1951d2df7fe8089aaa63be6
+Author: Јана Јанкулоска <101889143+jankuloskajana@users.noreply.github.com>
+Date:   Sat Apr 8 14:48:22 2023 +0200
+
+    Update README.md
+
+commit 76899122b7a69f5da4a395eac556eb8192ec1a8c
+Author: Јана Јанкулоска <101889143+jankuloskajana@users.noreply.github.com>
+Date:   Sat Apr 8 14:46:58 2023 +0200
+
+    Initial commit
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (master)
+$ git log
+commit 07587b0074af3520f65b42d2b18a026285bd5962 (HEAD -> master, origin/master, bug3)
+Author: Jana Jankuloska <j.jankuloska13@gmail.com>
+Date:   Sat Apr 8 15:22:55 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 0529140e2ac1f5bcae75cda481fe0b6d307602d5
+Merge: 30366ef 5f32562
+Author: Jana Jankuloska <j.jankuloska13@gmail.com>
+Date:   Sat Apr 8 15:27:52 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 5f32562d9e3d247d3746a9d0e549cc111e53677c (origin/bug2, bug2)
+Author: Jana Jankuloska <j.jankuloska13@gmail.com>
+Date:   Sat Apr 8 15:20:16 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 30366effd3c74e2770c88d5f0117768d533590b4 (origin/bug1, bug1)
+Author: Jana Jankuloska <j.jankuloska13@gmail.com>
+Date:   Sat Apr 8 15:12:51 2023 +0200
+
+    Fix wrong loop for reading
+
+commit e5c79a078aba513bd4998f7031e7a687f841b377
+Author: Јана Јанкулоска <101889143+jankuloskajana@users.noreply.github.com>
+Date:   Sat Apr 8 14:50:26 2023 +0200
+
+    Add java class
+
+commit 1be0c784ec63a8cfb1951d2df7fe8089aaa63be6
+Author: Јана Јанкулоска <101889143+jankuloskajana@users.noreply.github.com>
+Date:   Sat Apr 8 14:48:22 2023 +0200
+
+    Update README.md
+
+commit 76899122b7a69f5da4a395eac556eb8192ec1a8c
+Author: Јана Јанкулоска <101889143+jankuloskajana@users.noreply.github.com>
+Date:   Sat Apr 8 14:46:58 2023 +0200
+
+    Initial commit

@@ -1,0 +1,287 @@
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~
+$ git config --global user.name "Jana Jankuloska"
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~
+$ git config --global user.email j.jankuloska13@gmail.com
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~
+$ git config --global color.ui true
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~
+$ git clone https://github.com/jankuloskajana/SI_2023_lab1_182026.git
+Cloning into 'SI_2023_lab1_182026'...
+warning: You appear to have cloned an empty repository.
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~
+$ cd SI_2023_lab1_182026
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (master)
+$ git pull
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (9/9), 2.28 KiB | 61.00 KiB/s, done.
+From https://github.com/jankuloskajana/SI_2023_lab1_182026
+ * [new branch]      master     -> origin/master
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (master)
+$ git branch bug1
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (master)
+$ git branch bug2
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (master)
+$ git branch bug3
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (master)
+$ git checkout bug1
+Switched to branch 'bug1'
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug1)
+$ git status
+On branch bug1
+nothing to commit, working tree clean
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug1)
+$ git log
+commit e5c79a078aba513bd4998f7031e7a687f841b377 (HEAD -> bug1, origin/master, master, bug3, bug2)
+Author: Јана Јанкулоска <101889143+jankuloskajana@users.noreply.github.com>
+Date:   Sat Apr 8 14:50:26 2023 +0200
+
+    Add java class
+
+commit 1be0c784ec63a8cfb1951d2df7fe8089aaa63be6
+Author: Јана Јанкулоска <101889143+jankuloskajana@users.noreply.github.com>
+Date:   Sat Apr 8 14:48:22 2023 +0200
+
+    Update README.md
+
+commit 76899122b7a69f5da4a395eac556eb8192ec1a8c
+Author: Јана Јанкулоска <101889143+jankuloskajana@users.noreply.github.com>
+Date:   Sat Apr 8 14:46:58 2023 +0200
+
+    Initial commit
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug1)
+$ gitt add SILab1.java
+bash: gitt: command not found
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug1)
+$ git add SILab2.java
+fatal: pathspec 'SILab2.java' did not match any files
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug1)
+$ git add SILab1.java
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug1)
+$ git commit -m "Fix wrong loop for reading"
+[bug1 30366ef] Fix wrong loop for reading
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug1)
+$ git log
+commit 30366effd3c74e2770c88d5f0117768d533590b4 (HEAD -> bug1)
+Author: Jana Jankuloska <j.jankuloska13@gmail.com>
+Date:   Sat Apr 8 15:12:51 2023 +0200
+
+    Fix wrong loop for reading
+
+commit e5c79a078aba513bd4998f7031e7a687f841b377 (origin/master, master, bug3, bug2)
+Author: Јана Јанкулоска <101889143+jankuloskajana@users.noreply.github.com>
+Date:   Sat Apr 8 14:50:26 2023 +0200
+
+    Add java class
+
+commit 1be0c784ec63a8cfb1951d2df7fe8089aaa63be6
+Author: Јана Јанкулоска <101889143+jankuloskajana@users.noreply.github.com>
+Date:   Sat Apr 8 14:48:22 2023 +0200
+
+    Update README.md
+
+commit 76899122b7a69f5da4a395eac556eb8192ec1a8c
+Author: Јана Јанкулоска <101889143+jankuloskajana@users.noreply.github.com>
+Date:   Sat Apr 8 14:46:58 2023 +0200
+
+    Initial commit
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug1)
+$ git checkout bug2
+Switched to branch 'bug2'
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug2)
+$ git add SILab1.java
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug2)
+$ git status
+On branch bug2
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   SILab1.java
+
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug2)
+$ git commit -m "Fix wrong condition in filterOddNumbers
+>
+> ^C
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug2)
+$ git status
+On branch bug2
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   SILab1.java
+
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug2)
+$ git commit -m "Fix wrong condition in filterOddNumbers"
+[bug2 5f32562] Fix wrong condition in filterOddNumbers
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug2)
+$ git checkout bug3
+Switched to branch 'bug3'
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug3)
+$ git add SILab1.java
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug3)
+$ git commit -m "Fix method sumEvenNumbers"
+[bug3 5e92492] Fix method sumEvenNumbers
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug3)
+$ git push origin bug1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'bug1' on GitHub by visiting:
+remote:      https://github.com/jankuloskajana/SI_2023_lab1_182026/pull/new/bug1
+remote:
+To https://github.com/jankuloskajana/SI_2023_lab1_182026.git
+ * [new branch]      bug1 -> bug1
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug3)
+$ git push origin bug2
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 348 bytes | 348.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'bug2' on GitHub by visiting:
+remote:      https://github.com/jankuloskajana/SI_2023_lab1_182026/pull/new/bug2
+remote:
+To https://github.com/jankuloskajana/SI_2023_lab1_182026.git
+ * [new branch]      bug2 -> bug2
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug3)
+$ git push origin bug3
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'bug3' on GitHub by visiting:
+remote:      https://github.com/jankuloskajana/SI_2023_lab1_182026/pull/new/bug3
+remote:
+To https://github.com/jankuloskajana/SI_2023_lab1_182026.git
+ * [new branch]      bug3 -> bug3
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug3)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (master)
+$ git merge bug1
+Updating e5c79a0..30366ef
+Fast-forward
+ SILab1.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (master)
+$ git push --all origin
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jankuloskajana/SI_2023_lab1_182026.git
+   e5c79a0..30366ef  master -> master
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (master)
+$ git merge bug2
+Auto-merging SILab1.java
+Merge made by the 'ort' strategy.
+ SILab1.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (master)
+$ git push --all origin
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 359 bytes | 359.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/jankuloskajana/SI_2023_lab1_182026.git
+   30366ef..0529140  master -> master
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (master)
+$ git checkout bug3
+Switched to branch 'bug3'
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug3)
+$ git rebase master bug3
+Successfully rebased and updated refs/heads/bug3.
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (bug3)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (master)
+$ git merge bug3
+Updating 0529140..07587b0
+Fast-forward
+ SILab1.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (master)
+$ git push --all origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 335 bytes | 335.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/jankuloskajana/SI_2023_lab1_182026.git
+   0529140..07587b0  master -> master
+ ! [rejected]        bug3 -> bug3 (non-fast-forward)
+error: failed to push some refs to 'https://github.com/jankuloskajana/SI_2023_lab1_182026.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. Check out this branch and integrate the remote changes
+hint: (e.g. 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (master)
+$ git push --force -u origin
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+JANA@DESKTOP-FIQDVRR MINGW64 ~/SI_2023_lab1_182026 (master)
+$
